@@ -92,7 +92,7 @@ INCLUDE += -I"./lib/."
 null :=
 space := $(null) $(null)
 ifeq ($(OS),Windows_NT)
-WEBOTS_HOME_PATH:=F:/webots/Main/Webots
+WEBOTS_HOME_PATH:=D:/de_sfw/Webots
 else
 WEBOTS_HOME_PATH:=/usr/local/webots
 endif
