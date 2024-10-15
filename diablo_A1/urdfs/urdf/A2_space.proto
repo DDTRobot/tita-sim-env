@@ -1,0 +1,736 @@
+#VRML_SIM R2023a utf8
+# Describe the functionality of your PROTO here.
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/hospital/protos/HandSanitizer.proto"
+
+PROTO A2_space [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "A2_space"  # Is `Robot.name`.
+  field  SFString    controller      "void"    # Is `Robot.controller`.
+  field  MFString    controllerArgs  []        # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""        # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE     # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE      # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE     # Is `Robot.selfCollision`.
+
+]
+{
+  Solid {
+        translation IS translation
+        rotation IS rotation
+        name IS name
+        controller IS controller
+        controllerArgs IS controllerArgs
+        customData IS customData
+        supervisor IS supervisor
+        synchronization IS synchronization
+        selfCollision IS selfCollision
+        model "RoCKIn AX06"
+  contactMaterial "ramp"      children [ 
+Solid {
+  translation 4.05 5.36 -0.0294
+  rotation 1 0 0 -0.44
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+    boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 4.05 4.3404 -0.0295
+  rotation 1 0 0 0.4400003061004253
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(34)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 4.05 4.8502 0.140476
+  rotation 0 1 0 0
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.3 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(33)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.3 0.01}
+}
+Solid {
+  translation 4.05 6.4648 -0.0294
+  rotation 1 0 0 -0.44
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(32)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 4.05 5.4452 -0.0295
+  rotation 1 0 0 0.4400003061004253
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(31)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 4.05 5.955 0.140476
+  rotation 1 0 0 0
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.3 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(30)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.3 0.01}
+}
+Solid {
+  translation 5.3 0 0.65
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(17)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 3.05 6.5198 0.140476
+  rotation 1 0 0 0
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.3 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(27)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.3 0.01}
+}
+Solid {
+  translation 3.05 6.01 -0.0295
+  rotation 1 0 0 0.4400003061004253
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(28)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 3.05 7.0296 -0.0294
+  rotation 1 0 0 -0.44
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(29)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 5 0 0.75
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(16)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 4.7 0 0.85
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(15)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 6.8 0 0.15
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(14)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 7.1 0 0.05
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(18)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 3.05 3.8 -0.0295
+  rotation 1 0 0 0.4400003061004253
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(21)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 3.05 4.905 -0.0295
+  rotation 1 0 0 0.4400003061004253
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(24)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 3.05 4.8196 -0.0294
+  rotation 1 0 0 -0.44
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(22)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+Solid {
+  translation 3.05 5.9246 -0.0294
+  rotation 1 0 0 -0.44
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.8 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(26)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 1 0.8 0.01}
+}
+  Solid {
+  translation 3.05 4.3098 0.140476
+  rotation 1 0 0 0
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.3 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(23)"
+  
+
+  boundingObject Box {size 1 0.3 0.01}
+} 
+Solid {
+  translation 3.05 5.4148 0.140476
+  rotation 1 0 0 0
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.3 0.01
+      }
+    }
+  ]
+  name "RoCKIn AX06(25)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 1 0.3 0.01}
+}
+Solid {
+  translation 6.5 0 0.25
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(13)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 6.2 0 0.35
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(12)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+CircleArena {
+  name "circle arena(1)"
+  radius 100
+}
+Solid {
+  translation 3.55 0 0.95
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 2 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(10)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 2 2 0.1}
+}
+Solid {
+  translation 3.55 6.14 -0.048
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 2 7 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(36)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 2 7 0.1}
+}
+Solid {
+  translation 3.55 -1.841 0.457
+  rotation 1 0 0 0.5236
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 2 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(20)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 2 2 0.1}
+}
+Solid {
+  translation 3.55 2.2741 0.2066
+  rotation 1 0 0 -0.5236
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 2 3 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(19)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"
+  boundingObject Box {size 2 3 0.1}
+}
+Solid {
+  translation 5.6 0 0.55
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(9)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 5.9 0 0.45
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(11)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 2.4 0 0.85
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(8)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 2.1 0 0.75
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(7)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 1.2 0 0.45
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(4)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 1.5 0 0.55
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(5)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 1.8 0 0.65
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(6)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 0.9 0 0.35
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(3)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 0.6 0 0.25
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(2)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 0.3 0 0.15
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06(1)"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+Solid {
+  translation 0 0 0.05
+  children [
+    DEF AX06_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.5 0.1
+        roughness 0.4
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 2 0.1
+      }
+    }
+  ]
+  name "RoCKIn AX06"
+  model "RoCKIn AX06"
+  contactMaterial "ramp"boundingObject Box {size 0.3 2 0.1}
+}
+
+              ]
+     }
+                   
+}

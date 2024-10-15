@@ -1,0 +1,8 @@
+.*
+!/.gitignore
+diablo_A1/controllers/diablo_webots/build/
+diablo_A1/controllers/diablo_webots/core.*
+diablo_A1/controllers/diablo_webots/knee.*
+diablo_A1/controllers/diablo_webots/diablo_webots
+diablo_A1/worlds/*.jpg
+diablo_A1/worlds/*.wbproj
