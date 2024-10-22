@@ -8,7 +8,7 @@
 
 #### The basic webots simulation environment for TITA. 
 
-#### Noted that the environment has no controller, but you can design your own controller to control the robot. 
+#### Noted that the environment has no controller, but you can design your own controller to control the robot， or use the executable sample to control the robot.
 
 ---
 ## Platform Support 
