@@ -1,4 +1,4 @@
-<p align="center"><strong>DIABIO-SIM-ENV</strong></p>
+<p align="center"><strong>TITA-SIM-ENV</strong></p>
 <p align="center"><a href="https://github.com/Direcrt-Drive-Technology/diablo-sdk-v1/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-LGPL%202.1-orange"/></a>
 <img alt="language" src="https://img.shields.io/badge/language-c++-red"/>
 <img alt="platform" src="https://img.shields.io/badge/platform-Docker-2496ED?style=flat-square&logo=docker&logoColor=FFFFFF"/>
