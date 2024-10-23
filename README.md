@@ -27,3 +27,7 @@
 ```shell
 \tita-sim-env\sim-webots\diablo_A1\controllers\diablo_webots\sample
 ```
+
+#### 20241023 
+
+Add TITA point foot urdf and meshes
