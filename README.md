@@ -30,4 +30,4 @@
 
 #### 20241023 
 
-Add TITA point foot urdf and meshes
+Add TITA bipedal point foot urdf and meshes
