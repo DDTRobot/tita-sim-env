@@ -28,6 +28,7 @@
 \tita-sim-env\sim-webots\diablo_A1\controllers\diablo_webots\sample
 ```
 
+### Update
 #### 20241023 
 
-Add TITA bipedal point foot urdf and meshes
+Add TITA bipedal point foot urdf and meshes.
